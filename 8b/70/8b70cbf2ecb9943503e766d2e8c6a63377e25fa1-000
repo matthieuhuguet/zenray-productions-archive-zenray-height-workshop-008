@@ -1,0 +1,336 @@
+{
+ "name": "DemoTilesFull_H2",
+ "net": "/obj/ZRH_DemoTilesFull",
+ "reference": "/Users/zenray/.claude/tmp/tmp-zenray-height/projects/DemoTilesFull/refs/DemoTilesFull_height_2048.png",
+ "layers": [
+  {
+   "local": {
+    "ok": true,
+    "pixels": 0,
+    "ls_gain": 1.0
+   },
+   "layer": "pix_s05_k16",
+   "status": "accepted",
+   "score": 0.9891,
+   "gain": 0.0021,
+   "summary": {
+    "pearson": 0.9967,
+    "mae": 0.0035,
+    "low32": 1.0,
+    "b1-2": 0.9765,
+    "b4-8": 0.9945,
+    "b16-32": 0.9992,
+    "q25": 0.964,
+    "q75": 0.9659,
+    "lines": 0.679,
+    "struct": 0.986,
+    "detail": 0.91
+   },
+   "note": "16 posterised bins of residual low pass s0.5 at 2048 px, 43284 regions",
+   "seconds": 9.7,
+   "nodes": 179,
+   "timing": {
+    "kept_layers": 27,
+    "new_layers": 1,
+    "t_nodes": 0.67,
+    "t_cook_export": 1.0
+   },
+   "image": "/Users/zenray/.claude/tmp/tmp-zenray-height/projects/DemoTilesFull/versions/final/DemoTilesFull_H2/L01_pix_s05_k16.png",
+   "gates": {
+    "A_thumb64_mae_pct": 0.076,
+    "D_joint_profile_corr": 0.9999,
+    "D_joint_profile_mae_pct": 0.095,
+    "G_band_energy_ratio": {
+     "1-2": 0.964,
+     "2-4": 0.975,
+     "4-8": 0.981,
+     "8-16": 0.989,
+     "16-32": 0.996
+    },
+    "F_residual_w1_pct": 0.157,
+    "F_residual_std_ratio": 1.04,
+    "J_rmse": 0.0095,
+    "J_floor_if_stochastic": 0.018
+   }
+  },
+  {
+   "local": {
+    "ok": true,
+    "pixels": 0,
+    "ls_gain": 1.0
+   },
+   "layer": "pix_s05_k16_p2",
+   "status": "accepted",
+   "score": 0.99,
+   "gain": 0.0009,
+   "summary": {
+    "pearson": 0.997,
+    "mae": 0.0033,
+    "low32": 1.0,
+    "b1-2": 0.9792,
+    "b4-8": 0.995,
+    "b16-32": 0.9993,
+    "q25": 0.9658,
+    "q75": 0.968,
+    "lines": 0.697,
+    "struct": 0.987,
+    "detail": 0.916
+   },
+   "note": "16 posterised bins of residual low pass s0.5 at 2048 px, 29738 regions",
+   "seconds": 9.0,
+   "nodes": 184,
+   "timing": {
+    "kept_layers": 28,
+    "new_layers": 1,
+    "t_nodes": 0.52,
+    "t_cook_export": 1.19
+   },
+   "image": "/Users/zenray/.claude/tmp/tmp-zenray-height/projects/DemoTilesFull/versions/final/DemoTilesFull_H2/L02_pix_s05_k16_p2.png",
+   "gates": {
+    "A_thumb64_mae_pct": 0.074,
+    "D_joint_profile_corr": 0.9999,
+    "D_joint_profile_mae_pct": 0.091,
+    "G_band_energy_ratio": {
+     "1-2": 0.967,
+     "2-4": 0.977,
+     "4-8": 0.982,
+     "8-16": 0.99,
+     "16-32": 0.997
+    },
+    "F_residual_w1_pct": 0.145,
+    "F_residual_std_ratio": 1.036,
+    "J_rmse": 0.009,
+    "J_floor_if_stochastic": 0.018
+   }
+  },
+  {
+   "local": {
+    "ok": true,
+    "pixels": 0,
+    "ls_gain": 1.0
+   },
+   "layer": "pix_s05_k16_p3",
+   "status": "accepted",
+   "score": 0.9905,
+   "gain": 0.0005,
+   "summary": {
+    "pearson": 0.9972,
+    "mae": 0.0032,
+    "low32": 1.0,
+    "b1-2": 0.9809,
+    "b4-8": 0.9955,
+    "b16-32": 0.9993,
+    "q25": 0.9667,
+    "q75": 0.9691,
+    "lines": 0.706,
+    "struct": 0.987,
+    "detail": 0.919
+   },
+   "note": "16 posterised bins of residual low pass s0.5 at 2048 px, 19587 regions",
+   "seconds": 8.1,
+   "nodes": 189,
+   "timing": {
+    "kept_layers": 29,
+    "new_layers": 1,
+    "t_nodes": 0.34,
+    "t_cook_export": 1.15
+   },
+   "image": "/Users/zenray/.claude/tmp/tmp-zenray-height/projects/DemoTilesFull/versions/final/DemoTilesFull_H2/L03_pix_s05_k16_p3.png",
+   "gates": {
+    "A_thumb64_mae_pct": 0.071,
+    "D_joint_profile_corr": 0.9999,
+    "D_joint_profile_mae_pct": 0.088,
+    "G_band_energy_ratio": {
+     "1-2": 0.969,
+     "2-4": 0.979,
+     "4-8": 0.983,
+     "8-16": 0.991,
+     "16-32": 0.997
+    },
+    "F_residual_w1_pct": 0.139,
+    "F_residual_std_ratio": 1.035,
+    "J_rmse": 0.0087,
+    "J_floor_if_stochastic": 0.018
+   }
+  },
+  {
+   "local": {
+    "ok": true,
+    "pixels": 0,
+    "ls_gain": 1.0
+   },
+   "layer": "pix_s05_k16_m3",
+   "status": "accepted",
+   "score": 0.9914,
+   "gain": 0.001,
+   "summary": {
+    "pearson": 0.9975,
+    "mae": 0.0029,
+    "low32": 1.0,
+    "b1-2": 0.9836,
+    "b4-8": 0.9958,
+    "b16-32": 0.9993,
+    "q25": 0.9699,
+    "q75": 0.9719,
+    "lines": 0.723,
+    "struct": 0.988,
+    "detail": 0.924
+   },
+   "note": "16 posterised bins of residual low pass s0.5 at 2048 px, 265277 regions",
+   "seconds": 18.1,
+   "nodes": 194,
+   "timing": {
+    "kept_layers": 30,
+    "new_layers": 1,
+    "t_nodes": 3.74,
+    "t_cook_export": 1.16
+   },
+   "image": "/Users/zenray/.claude/tmp/tmp-zenray-height/projects/DemoTilesFull/versions/final/DemoTilesFull_H2/L04_pix_s05_k16_m3.png",
+   "gates": {
+    "A_thumb64_mae_pct": 0.065,
+    "D_joint_profile_corr": 0.9999,
+    "D_joint_profile_mae_pct": 0.083,
+    "G_band_energy_ratio": {
+     "1-2": 0.976,
+     "2-4": 0.981,
+     "4-8": 0.984,
+     "8-16": 0.991,
+     "16-32": 0.997
+    },
+    "F_residual_w1_pct": 0.121,
+    "F_residual_std_ratio": 1.036,
+    "J_rmse": 0.0083,
+    "J_floor_if_stochastic": 0.018
+   }
+  },
+  {
+   "local": {
+    "ok": true,
+    "pixels": 0,
+    "ls_gain": 1.0
+   },
+   "layer": "pix_s05_k16_m3_p2",
+   "status": "accepted",
+   "score": 0.992,
+   "gain": 0.0006,
+   "summary": {
+    "pearson": 0.9977,
+    "mae": 0.0027,
+    "low32": 1.0,
+    "b1-2": 0.9852,
+    "b4-8": 0.9961,
+    "b16-32": 0.9994,
+    "q25": 0.972,
+    "q75": 0.9736,
+    "lines": 0.735,
+    "struct": 0.989,
+    "detail": 0.927
+   },
+   "note": "16 posterised bins of residual low pass s0.5 at 2048 px, 239655 regions",
+   "seconds": 16.9,
+   "nodes": 199,
+   "timing": {
+    "kept_layers": 31,
+    "new_layers": 1,
+    "t_nodes": 3.11,
+    "t_cook_export": 1.31
+   },
+   "image": "/Users/zenray/.claude/tmp/tmp-zenray-height/projects/DemoTilesFull/versions/final/DemoTilesFull_H2/L05_pix_s05_k16_m3_p2.png",
+   "gates": {
+    "A_thumb64_mae_pct": 0.06,
+    "D_joint_profile_corr": 0.9999,
+    "D_joint_profile_mae_pct": 0.078,
+    "G_band_energy_ratio": {
+     "1-2": 0.979,
+     "2-4": 0.982,
+     "4-8": 0.984,
+     "8-16": 0.992,
+     "16-32": 0.998
+    },
+    "F_residual_w1_pct": 0.11,
+    "F_residual_std_ratio": 1.037,
+    "J_rmse": 0.008,
+    "J_floor_if_stochastic": 0.018
+   }
+  },
+  {
+   "local": null,
+   "layer": "eq",
+   "status": "accepted",
+   "score": 0.9951,
+   "gain": 0.003,
+   "summary": {
+    "pearson": 0.9984,
+    "mae": 0.0019,
+    "low32": 1.0,
+    "b1-2": 0.9855,
+    "b4-8": 0.9961,
+    "b16-32": 0.9994,
+    "q25": 0.98,
+    "q75": 0.9836,
+    "lines": 0.861,
+    "struct": 0.993,
+    "detail": 0.959
+   },
+   "note": "frequency equaliser, least squares at full resolution",
+   "seconds": 6.2,
+   "nodes": 213,
+   "timing": {
+    "kept_layers": 32,
+    "new_layers": 1,
+    "t_nodes": 0.01,
+    "t_cook_export": 1.26
+   },
+   "image": "/Users/zenray/.claude/tmp/tmp-zenray-height/projects/DemoTilesFull/versions/final/DemoTilesFull_H2/L06_eq.png",
+   "gates": {
+    "A_thumb64_mae_pct": 0.062,
+    "D_joint_profile_corr": 1.0,
+    "D_joint_profile_mae_pct": 0.081,
+    "G_band_energy_ratio": {
+     "1-2": 0.986,
+     "2-4": 0.997,
+     "4-8": 0.99,
+     "8-16": 0.993,
+     "16-32": 0.998
+    },
+    "F_residual_w1_pct": 0.048,
+    "F_residual_std_ratio": 0.971,
+    "J_rmse": 0.0067,
+    "J_floor_if_stochastic": 0.018
+   }
+  },
+  {
+   "local": null,
+   "layer": "hist",
+   "status": "rejected",
+   "score": 0.995,
+   "gain": -0.0001,
+   "summary": {
+    "pearson": 0.9983,
+    "mae": 0.0023,
+    "low32": 1.0,
+    "b1-2": 0.9847,
+    "b4-8": 0.9963,
+    "b16-32": 0.9992,
+    "q25": 0.98,
+    "q75": 0.9836,
+    "lines": 0.853,
+    "struct": 0.992,
+    "detail": 0.957
+   },
+   "note": "histogram matched to reference",
+   "seconds": 6.0,
+   "nodes": 214,
+   "timing": {
+    "kept_layers": 33,
+    "new_layers": 1,
+    "t_nodes": 0.01,
+    "t_cook_export": 1.13
+   }
+  }
+ ],
+ "cells": [
+  4,
+  4
+ ]
+}
